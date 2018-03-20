@@ -439,15 +439,15 @@ TweenLite.from("#harry", 2,
            //Display the game message if the player has run out of gold or food
            if (harry.gold <= 0)
            {
-               gameMessage += " Harry's run out of gold!";
+               gameMessage += "<br> Harry runs out of gold!";
            }
            else
            {
-               gameMessage += " Harry's run out of food!";
+               gameMessage += "<br> Harry runs out of food!";
            }
 
            gameMessage
-               += " Harry's falls back to earth!";
+               += "<br> Harry's falls back to earth!";
            //jQuery audio sound
            $('audio#end')[0].play();
            $("#header").html("GAME OVER");
