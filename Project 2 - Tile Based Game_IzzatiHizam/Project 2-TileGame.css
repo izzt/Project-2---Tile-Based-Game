@@ -1,0 +1,79 @@
+#introScreen {
+	margin: 50px auto;
+	padding: 53px 53px 0px 0px;
+	padding-left: 53px;
+	padding-bottom: 53px;
+	width: 749px;
+	height: 350px;
+	position: relative;
+	background-color: limegreen;
+	font-family: Arial, Helvetica, sans-serif;
+	color: blue;
+}
+
+#harry {
+	width: 284px;
+	float: right;
+	color: rgba(248,248,248,1.00);
+	background-color: rgba(228,246,136,1.00);
+}
+#header {
+	text-align: center;
+	padding-top: 33px;
+	font-family: cooper-black-std;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 195%;
+	color: purple;
+}
+#harryintro {
+	font-family: walter-turncoat;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 25px;
+     position: relative;
+}
+#howtoplay {
+	color: rgba(0,0,0,1.00);
+}
+#guide {
+	color: rgba(0,0,0,1.00);
+	font-family: averia-sans-libre;
+	font-weight: 400;
+	font-variant: normal;
+	font-style: normal;
+}
+#start {
+	color: rgba(0,0,0,1.00);
+	font-family: walter-turncoat;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 21px;
+}
+#gameScreen{
+    position: relative;
+    margin: 50px auto;
+	width: 512px;
+	height: 512px;
+    background-image:;
+    display:none;
+    
+}
+
+.cell
+{
+  position: absolute;
+  width: 68px;
+  height: 68px;
+  border: 1px solid black;
+}
+
+
+#section1 #output {
+	text-align: center;
+	font-family: andika;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 19px;
+	color: rgba(233,11,188,1.00);
+}
